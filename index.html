@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>豪帅网络服务 - 企业网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-network-wired"></i>
+                <span>豪帅网络服务</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">服务</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">关于</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">联系</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero/Banner 区域 -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <canvas id="particle-canvas"></canvas>
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="highlight">豪帅网络服务</span>
+                    <br>专业的企业数字化解决方案
+                </h1>
+                <p class="hero-description">
+                    我们致力于为企业提供最前沿的网络技术服务，
+                    让您的企业在数字化时代中脱颖而出
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">立即咨询</button>
+                    <button class="btn btn-secondary">了解更多</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-cards">
+                    <div class="tech-card card-1">
+                        <i class="fas fa-cloud"></i>
+                        <span>云计算</span>
+                    </div>
+                    <div class="tech-card card-2">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>网络安全</span>
+                    </div>
+                    <div class="tech-card card-3">
+                        <i class="fas fa-server"></i>
+                        <span>服务器</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心展示区 -->
+    <section class="core-showcase">
+        <div class="container">
+            <div class="showcase-content">
+                <h2 class="showcase-title">
+                    <span class="company-name">豪帅网络服务</span>
+                    <br>引领企业数字化转型
+                </h2>
+                <p class="showcase-description">
+                    作为专业的企业网络服务提供商，我们拥有深厚的技术实力和丰富的项目经验。
+                    我们专注于为企业打造安全、高效、智能的网络解决方案，助力企业在数字化浪潮中稳步前行。
+                </p>
+                <div class="showcase-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="500">0</div>
+                        <div class="stat-label">企业客户</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="99">0</div>
+                        <div class="stat-label">% 满意度</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="24">0</div>
+                        <div class="stat-label">小时支持</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 服务介绍区 -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">我们的服务</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>网站开发</h3>
+                    <p>响应式网站设计开发，现代化界面设计，优秀的用户体验</p>
+                    <ul class="service-features">
+                        <li>响应式设计</li>
+                        <li>SEO优化</li>
+                        <li>快速加载</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>云服务</h3>
+                    <p>企业级云计算解决方案，弹性扩容，高可用性保障</p>
+                    <ul class="service-features">
+                        <li>弹性扩容</li>
+                        <li>数据备份</li>
+                        <li>监控告警</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>网络安全</h3>
+                    <p>全面的网络安全防护，保护企业数据和客户隐私</p>
+                    <ul class="service-features">
+                        <li>防火墙配置</li>
+                        <li>入侵检测</li>
+                        <li>安全审计</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>移动应用</h3>
+                    <p>跨平台移动应用开发，Android & iOS 原生体验</p>
+                    <ul class="service-features">
+                        <li>原生开发</li>
+                        <li>跨平台</li>
+                        <li>用户友好</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们区 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>关于我们</h2>
+                    <p>
+                        豪帅网络服务成立于2020年，是一家专注于企业数字化转型的科技公司。
+                        我们拥有一支经验丰富的技术团队，为各行各业的客户提供专业的网络技术服务。
+                    </p>
+                    <p>
+                        从小型企业到大型集团，我们都能提供量身定制的解决方案。
+                        我们相信技术的力量能够为企业创造更大的价值。
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>专业技术团队</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>7x24小时支持</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>定制化解决方案</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="tech-grid">
+                        <div class="tech-item">HTML5</div>
+                        <div class="tech-item">CSS3</div>
+                        <div class="tech-item">JavaScript</div>
+                        <div class="tech-item">React</div>
+                        <div class="tech-item">Vue.js</div>
+                        <div class="tech-item">Node.js</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系区 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>电话</h4>
+                            <p>400-123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>邮箱</h4>
+                            <p>contact@haoshuai-tech.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>地址</h4>
+                            <p>北京市朝阳区科技园区</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="邮箱地址" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="您的需求" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-network-wired"></i>
+                    <span>豪帅网络服务</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">首页</a>
+                    <a href="#services">服务</a>
+                    <a href="#about">关于</a>
+                    <a href="#contact">联系</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-weixin"></i></a>
+                    <a href="#"><i class="fab fa-qq"></i></a>
+                    <a href="#"><i class="fab fa-weibo"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-text">
+                    <p>&copy; 2024 豪帅网络服务. 保留所有权利.</p>
+                </div>
+                <div class="footer-records">
+                    <p>ICP备XXXXXXXX号</p>
+                    <p>公网安备XXXXXXXXXXXX号</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
